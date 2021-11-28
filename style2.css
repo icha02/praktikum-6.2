@@ -1,0 +1,41 @@
+nav,header,footer,article,aside{
+    padding: 1em;
+}
+#div-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+nav{
+ background-color: rgb(142, 205, 241);
+ align-items: stretch;
+ width: 20%;   
+}
+#div-2{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+header,footer{
+    background-color: rgb(218, 240, 182);
+    width: 1000px;
+    height: 100px;
+}
+#main{
+    display: flex;
+    flex: 1;
+}
+.article{
+    background-color: whitesmoke;
+    flex: 1;
+    order: 1;
+    
+    
+}
+.aside{
+    flex: 0 0 20vw;
+    background-color: rgb(137, 216, 218);
+    order: 1;
+    
+}
